@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sapient">
+  <test name="Smoke" thread-count="3" parallel="classes">
+    <classes>
+      <class name="day3.SameTestMultipleTimes"/>
+      <class name="day3.MyFirstTestNGTest"/>
+      <class name="day3.MyFirstTestNGTest3"/>
+      <class name="day3.MyFirstTestNGTest2"/>
+      <class name="day3.AssertionDemo"/>
+      <class name="day3.SmokeTest"/>
+      <class name="day3.AdditionalAttributes"/>
+    </classes>
+  </test> 
+</suite> 
